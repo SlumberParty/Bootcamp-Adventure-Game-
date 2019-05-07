@@ -1,11 +1,11 @@
-function makePortlander(formData) {
-    const portlander = {
+function makeUser(formData) {
+    const user = {
         name: formData.get('name'),
-        portlander: formData.get('portlander'),
-        wellBeing: '100',
-        localCred: '0'
+        position: formData.get('user'),
+        patience: '100',
+        madSkillz: '50'
     };
-    return portlander;
+    return user;
 }
 
-export default makePortlander;
+export default makeUser;

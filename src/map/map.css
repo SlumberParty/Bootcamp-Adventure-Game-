@@ -1,0 +1,30 @@
+#avatar {
+    width: 5%;
+}
+
+#profile {
+    border: 1px solid rgb(0, 255, 0);
+    height: 20px;
+    align-items: center;
+}
+
+#patience, #mad-skillz{
+    float: right;
+}
+
+#avatar, #name {
+    float: left;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+main a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+}

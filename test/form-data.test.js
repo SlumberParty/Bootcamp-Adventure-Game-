@@ -1,15 +1,9 @@
+import makeUser from '../src/home/make-user.js';
+
 const test = QUnit.test;
 QUnit.module('formData test'); 
 
-function makeUser(formData) {
-    const user = {
-        name: formData.get('name'),
-        position: formData.get('user'),
-        patience: '100',
-        madSkillz: '50'
-    };
-    return user;
-}
+
 
 test('return an object based off of formData', (assert) => {
     //Arrange
