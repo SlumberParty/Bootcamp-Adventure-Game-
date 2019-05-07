@@ -1,0 +1,16 @@
+img {
+    width: 75px;
+}
+
+body {
+    text-align: center;
+    /* background: url */
+    background-size: cover;
+}
+
+h1 {
+    /* font-family:  */
+    font-size: 3em;
+    font-weight: lighter;
+    color:black
+}

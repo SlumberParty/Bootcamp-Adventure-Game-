@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>Bootcamp Adventure</title>
+</head>
+<body>
+    <header>
+        <h1>Survive A Day In A Code Bootcamp!</h1>
+    </header>
+    <main>
+        <h2>Are you ready to start your day?</h2>
+        <form id="sign-up">
+            <p>
+                <label for="name">Enter your name:</label>
+                <input id="name" name="name" required>
+            </p>
+            <fieldset>
+                <legend>Choose your position</legend>
+                <p id="avatar">
+                    <label>
+                        <input type="radio" name="user" required value="student">
+                        Student
+                        <img src="./assets/student.svg" alt="">
+                    </label>
+                    <label>
+                        <input type="radio" name="user" required value="ta">
+                        TA
+                        <img src="./assets/ta.svg" alt="">
+                    </label>
+                    <label>
+                        <input type="radio" name="user" required value="teacher">
+                        Teacher
+                        <img src="./assets/teacher.svg" alt="">
+                    </label>
+                    <label>
+                </p>
+            </fieldset>
+            <button>Start your day!</button>
+        </form>
+    </main>
+    <script type="module" src="./src/home/index.js"></script>
+</body>
+</html>
