@@ -3,8 +3,6 @@ import makeUser from '../src/home/make-user.js';
 const test = QUnit.test;
 QUnit.module('formData test'); 
 
-
-
 test('return an object based off of formData', (assert) => {
     //Arrange
     // Set up your parameters and expectations

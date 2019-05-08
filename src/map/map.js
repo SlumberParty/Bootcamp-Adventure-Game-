@@ -5,7 +5,6 @@ const patience = document.getElementById('patience');
 const madSkillz = document.getElementById('mad-skillz');
 
 const player = api.getUser();
-console.log('player');
 
 name.textContent = player.name;
 patience.textContent = 'Patience Level: ' + player.patience;
