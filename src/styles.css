@@ -40,16 +40,7 @@ button {
 .profile {
     border: 1px solid rgb(0, 255, 0);
     height: 20px;
-    align-items: center;
     background-color: rgba(0, 0, 0, 0.863);
-    display: flex;
 }
 
-#name {
-    margin-right: 150px;
-}
-
-#patience {
-    margin-right: 100px;
-}
 

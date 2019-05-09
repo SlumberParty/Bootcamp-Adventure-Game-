@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/quests/quests.css">
+    <title>Quest</title>
+</head>
+<body>
+    <header>
+        <h1 id="quest-title">You enter the Communal Kitchen</h1>
+        <div class="profile">
+            <span id="name"></span>
+            <span id="patience"></span>
+            <span id="mad-skillz"></span>
+        </div>
+    </header>
+    <main>
+        <img src="./assets/quests/kitchen.jpg" alt="">
+        <h3>Not quite ready to face people or the day, you enter the small kitchen area hoping for a soothing morning beverage but you can't find a cup. You see a cup sitting in the sink, a large fridge proabably full of stuff and a few cupboards. What do you go for first?</h3>
+        <label for="choices">
+            <input type="radio" name="choice">You wash the cup
+        </label>
+        <p>
+            <button>Submit</button>
+        </p>
+        <section id="result" class="hidden">
+                <p id="result-description"></p>
+                <a href="map.html">Back to Map</a>
+        </section>
+    </main>
+    <script type="module" src="./src/quests/quest.js"></script>
+</body>
+</html>
