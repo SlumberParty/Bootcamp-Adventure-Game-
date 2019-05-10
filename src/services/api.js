@@ -1,3 +1,5 @@
+import quests from './quest-data.js';
+
 const api = {
     // Sets storage of where we will be putting the object
     storage: localStorage,
@@ -13,6 +15,11 @@ const api = {
         const json = api.storage.getItem('user');
         const user = JSON.parse(json);
         return user;
+    },
+
+    //get all the quests
+    getQuests() {
+        return quests;
     }
 };
 
