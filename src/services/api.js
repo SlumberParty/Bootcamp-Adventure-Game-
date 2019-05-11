@@ -1,4 +1,5 @@
 import quests from './quest-data.js';
+import getById from '../get-by-id.js';
 
 const api = {
     // Sets storage of where we will be putting the object
@@ -20,6 +21,9 @@ const api = {
     //get all the quests
     getQuests() {
         return quests;
+    },
+    getQuest(id) {
+        return getById(quests, id);
     }
 };
 
