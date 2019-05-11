@@ -1,11 +1,15 @@
 import api from '../services/api.js';
+import loadProfile from '../load-profile.js';
+import createQuestLink from '../quests/create-quest-link.js';
 
-const name = document.getElementById('name');
-const patience = document.getElementById('patience');
-const madSkillz = document.getElementById('mad-skillz');
+const nav = document.getElementById('quests');
 
-const player = api.getUser();
+const quests = api.getQuests();
 
-name.textContent = player.name;
-patience.textContent = 'Patience Level: ' + player.patience;
-madSkillz.textContent = 'Mad Skillz: ' + player.madSkillz;
+for(let i = 0; i < quest.length; i++) {
+    const quest = quest[i];
+    const link = createQuestLink(quest);
+    nav.appendChild(link);
+}
+
+
