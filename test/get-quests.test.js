@@ -1,6 +1,5 @@
 import api from '../src/services/api.js';
 import quests from '../src/services/quest-data.js';
-console.log(api);
 
 const test = QUnit.test;
 
