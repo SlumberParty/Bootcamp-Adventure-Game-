@@ -40,9 +40,7 @@ questForm.addEventListener('submit', event => {
     const choiceId = formData.get('choice');
     const choice = getById(quest.choices, choiceId);
 
-    // scoreChoice(user, choice, quest);
     api.saveUser(user);
-    makeProfile();
 
     result.textContent = choice.result;
 
